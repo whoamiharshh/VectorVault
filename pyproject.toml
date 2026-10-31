@@ -1,0 +1,30 @@
+[project]
+name = "rag-4"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Harsh", email = "finallyworkon@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "langchain",
+    "langchain-community",
+    "langchain-openai",
+    "pypdf",
+    "pymupdf",
+    "openai",
+    "python-dotenv",
+    "scipy",
+    "google-genai",
+    "ipykernel",
+    "faiss-cpu",
+    "scikit-learn",
+]
+
+[project.scripts]
+rag-4 = "rag_4:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"

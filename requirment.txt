@@ -1,0 +1,7 @@
+langchain
+langchain-community
+google-genai
+pypdf
+mupdf
+python-dotenv
+cosine-similarity
